@@ -36,6 +36,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cboTarjetaDeIngreso = new System.Windows.Forms.ComboBox();
             this.cboJustificacion = new System.Windows.Forms.ComboBox();
             this.cboEstadoAsistencia = new System.Windows.Forms.ComboBox();
             this.dgvAsistenciaAlumno = new System.Windows.Forms.DataGridView();
@@ -43,7 +44,6 @@
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.cboTarjetaDeIngreso = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAsistenciaAlumno)).BeginInit();
             this.SuspendLayout();
@@ -128,12 +128,22 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(140, 29);
+            this.groupBox1.Location = new System.Drawing.Point(101, 29);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(630, 292);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ASISTENCIA ALUMNO";
+            // 
+            // cboTarjetaDeIngreso
+            // 
+            this.cboTarjetaDeIngreso.FormattingEnabled = true;
+            this.cboTarjetaDeIngreso.Location = new System.Drawing.Point(382, 90);
+            this.cboTarjetaDeIngreso.Name = "cboTarjetaDeIngreso";
+            this.cboTarjetaDeIngreso.Size = new System.Drawing.Size(150, 33);
+            this.cboTarjetaDeIngreso.TabIndex = 12;
+            this.cboTarjetaDeIngreso.Text = "<seleciona>";
+            this.cboTarjetaDeIngreso.SelectedIndexChanged += new System.EventHandler(this.cboTarjetaDeIngreso_SelectedIndexChanged);
             // 
             // cboJustificacion
             // 
@@ -220,16 +230,6 @@
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // cboTarjetaDeIngreso
-            // 
-            this.cboTarjetaDeIngreso.FormattingEnabled = true;
-            this.cboTarjetaDeIngreso.Location = new System.Drawing.Point(382, 90);
-            this.cboTarjetaDeIngreso.Name = "cboTarjetaDeIngreso";
-            this.cboTarjetaDeIngreso.Size = new System.Drawing.Size(150, 33);
-            this.cboTarjetaDeIngreso.TabIndex = 12;
-            this.cboTarjetaDeIngreso.Text = "<seleciona>";
-            this.cboTarjetaDeIngreso.SelectedIndexChanged += new System.EventHandler(this.cboTarjetaDeIngreso_SelectedIndexChanged);
             // 
             // Asistencia
             // 
