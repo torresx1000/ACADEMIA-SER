@@ -89,4 +89,10 @@ CREATE PROCEDURE [dbo].[spLisTarjetaDeIngreso]
 AS
 	SELECT TarjetaDeIngresoID,nombres,apellidos, fecha_nacimiento, fecha_matricula
 	from TarjetaDeIngreso
+------------------------------------------------------------------
+listar Area
+CREATE  PROCEDURE [dbo].[ListaArea] 
+AS
+	SELECT *
+	from Area
 
