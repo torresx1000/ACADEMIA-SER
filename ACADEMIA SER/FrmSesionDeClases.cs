@@ -17,8 +17,15 @@ namespace ACADEMIA_SER
         {
             InitializeComponent();
             listarSesion();
+            llenarDatosComboArea();
         }
+        private void llenarDatosComboArea()
+        {
+            cboAreaId.DataSource = LogArea.Instancia.ListarArea();
+            cboAreaId.DisplayMember = "nombre";
+            cboAreaId.ValueMember = "AreaId";
 
+        }
         public void listarSesion()
         {
             DgwSesion.DataSource = LogSesionDeClases.Instancia.ListarSesion();
@@ -26,7 +33,7 @@ namespace ACADEMIA_SER
         public void limpiar()
         {
             txtSesionId.Text = "";
-            txtAreaID.Text = "";
+           
             txtSilabo_id.Text = "";
 
         }
@@ -43,7 +50,7 @@ namespace ACADEMIA_SER
                 ses.fecha = Convert.ToDateTime(dateTimePicker1.Value);
                 ses.sesionDeclase_id = int.Parse(txtSesionId.Text.Trim());
                 ses.reprogramacion = Convert.ToDateTime(dateTimePicker2.Value);
-                ses.area_id = int.Parse(txtAreaID.Text.Trim());
+                ses.area_id = Convert.ToInt32(cboAreaId.Text);
                 ses.silabo_id = int.Parse(txtSilabo_id.Text.Trim());
                 LogSesionDeClases.Instancia.InsertarSesion(ses);
             }

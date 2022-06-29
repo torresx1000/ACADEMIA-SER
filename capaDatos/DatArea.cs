@@ -22,7 +22,7 @@ namespace capaDatos
             }
         }
         //ListaArea
-        public List<EntArea> ListarAreas()
+        public List<EntArea> ListarArea()
         {
             SqlCommand cmd = null;
             List<EntArea> lista = new List<EntArea>();
@@ -37,7 +37,7 @@ namespace capaDatos
                 while (dr.Read())
                 {
                     EntArea Cli = new EntArea();
-                    Cli.areaId = Convert.ToInt32(dr["areaId"]);
+                    Cli.AreaId = Convert.ToInt32(dr["AreaId"]);
                     Cli.nombre = dr["nombre"].ToString();
                     Cli.docente = dr["docente"].ToString();
                     Cli.ciclo = Convert.ToInt32(dr["ciclo"]);

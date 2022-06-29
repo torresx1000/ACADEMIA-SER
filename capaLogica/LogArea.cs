@@ -20,9 +20,9 @@ namespace capaLogica
                 return LogArea._instancia;
             }
         }
-        public List<EntArea> ListarAreas()
+        public List<EntArea> ListarArea()
         {
-            return DatArea.Instancia.ListarAreas();
+            return DatArea.Instancia.ListarArea();
         }
     }
 }

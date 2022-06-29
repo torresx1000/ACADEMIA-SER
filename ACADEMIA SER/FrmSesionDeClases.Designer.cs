@@ -37,13 +37,13 @@ namespace ACADEMIA_SER
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtSilabo_id = new System.Windows.Forms.TextBox();
-            this.txtAreaID = new System.Windows.Forms.TextBox();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSesionId = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.cboAreaId = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.DgwSesion)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,17 +121,10 @@ namespace ACADEMIA_SER
             // 
             // txtSilabo_id
             // 
-            this.txtSilabo_id.Location = new System.Drawing.Point(386, 283);
+            this.txtSilabo_id.Location = new System.Drawing.Point(409, 283);
             this.txtSilabo_id.Name = "txtSilabo_id";
             this.txtSilabo_id.Size = new System.Drawing.Size(123, 22);
             this.txtSilabo_id.TabIndex = 32;
-            // 
-            // txtAreaID
-            // 
-            this.txtAreaID.Location = new System.Drawing.Point(386, 210);
-            this.txtAreaID.Name = "txtAreaID";
-            this.txtAreaID.Size = new System.Drawing.Size(123, 22);
-            this.txtAreaID.TabIndex = 31;
             // 
             // dateTimePicker2
             // 
@@ -189,11 +182,20 @@ namespace ACADEMIA_SER
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 25;
             // 
+            // cboAreaId
+            // 
+            this.cboAreaId.FormattingEnabled = true;
+            this.cboAreaId.Location = new System.Drawing.Point(377, 210);
+            this.cboAreaId.Name = "cboAreaId";
+            this.cboAreaId.Size = new System.Drawing.Size(171, 24);
+            this.cboAreaId.TabIndex = 40;
+            // 
             // FrmSesionDeClases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 665);
+            this.ClientSize = new System.Drawing.Size(1026, 667);
+            this.Controls.Add(this.cboAreaId);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnSalir);
@@ -202,7 +204,6 @@ namespace ACADEMIA_SER
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtSilabo_id);
-            this.Controls.Add(this.txtAreaID);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -228,12 +229,12 @@ namespace ACADEMIA_SER
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtSilabo_id;
-        private System.Windows.Forms.TextBox txtAreaID;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSesionId;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox cboAreaId;
     }
 }
