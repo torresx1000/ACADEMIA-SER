@@ -95,4 +95,44 @@ CREATE  PROCEDURE [dbo].[ListaArea]
 AS
 	SELECT *
 	from Area
+	
+---------------------------------------
+--silabo
+CREATE PROCEDURE spListaSilabo
+as
+	SELECT * 
+	from Silabo
+ 
+ CREATE PROCEDURE spInsertaSilabo
+(@silaboID int,
+@nombre_tema varchar(50),
+@fecha_tema date,
+@autor varchar(50)
+)
+as
+begin 
+
+	insert into Silabo(silaboID, nombre_tema, fecha_tema, autor) values
+	(@silaboID, @nombre_tema, @fecha_tema, @autor)
+end
+
+CREATE PROCEDURE [dbo].[spEditaSilabo] 
+(@silaboID int,
+@nombre_tema varchar(50),
+@fecha_tema date,
+@autor varchar(50)
+
+------------------------------------------------------------------------------------------------------
+
+)
+as
+begin 
+	update  Silabo set 
+	nombre_tema = @nombre_tema,
+	fecha_tema = @fecha_tema,
+	autor = @autor
+	where silaboID = @silaboID
+end
+
+
 
