@@ -82,3 +82,11 @@ begin
 	
 	where BancoDePreguntasID = @BancoDePreguntasID
 end
+------------------------------------------------------------------------
+--LISTAR4 TARJETA DE INGRESO
+
+CREATE PROCEDURE [dbo].[spLisTarjetaDeIngreso] 
+AS
+	SELECT TarjetaDeIngresoID,nombres,apellidos, fecha_nacimiento, fecha_matricula
+	from TarjetaDeIngreso
+
