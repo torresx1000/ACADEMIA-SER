@@ -28,5 +28,11 @@ namespace ACADEMIA_SER
             FormularioBancoDePreguntas acercadeb = new FormularioBancoDePreguntas();
             acercadeb.Show();
         }
+
+        private void btnSesion_Click(object sender, EventArgs e)
+        {
+            FrmSesionDeClases f = new FrmSesionDeClases();
+            f.Show();
+        }
     }
 }

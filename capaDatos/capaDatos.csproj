@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="DatAsistencia.cs" />
+    <Compile Include="DatSesionDeClases.cs" />
     <Compile Include="DatTarjetaDeIngreso.cs" />
     <Compile Include="datBancoDePreguntas.cs" />
     <Compile Include="UserControl1.cs">

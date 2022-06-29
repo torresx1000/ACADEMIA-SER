@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace capaEntidad
 {
-    class SesionDeClase
+    public class EntSesionDeClase
     {
         public DateTime fecha { set; get; }
         public int sesionDeclase_id { set; get; }

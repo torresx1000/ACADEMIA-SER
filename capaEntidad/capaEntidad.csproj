@@ -45,7 +45,7 @@
     <Compile Include="EntTarjetaDeIngreso.cs" />
     <Compile Include="EntAsistencia.cs" />
     <Compile Include="EntBancoDePreguntas.cs" />
-    <Compile Include="SesionDeClase.cs" />
+    <Compile Include="EntSesionDeClase.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
