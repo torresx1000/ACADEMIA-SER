@@ -46,7 +46,7 @@ namespace ACADEMIA_SER
             {
                 EntAsistencia c = new EntAsistencia();
                 c.AsistenciaID = int.Parse(txtAsistencia.Text.Trim());
-                c.TarjetaDeIngresoID = int.Parse(cboTarjetaDeIngreso.Text.Trim());
+                c.TarjetaDeIngresoID = Convert.ToInt32(cboTarjetaDeIngreso.SelectedValue);
                 c.estado_asistencia = char.Parse((string)cboEstadoAsistencia.Text);
                 c.justificacion = char.Parse((string)cboEstadoAsistencia.Text);
                 c.des_justificacion = txtDesJustificacion.Text.Trim();
