@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntArea.cs" />
     <Compile Include="EntTarjetaDeIngreso.cs" />
     <Compile Include="EntAsistencia.cs" />
     <Compile Include="EntBancoDePreguntas.cs" />

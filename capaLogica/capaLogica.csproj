@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogArea.cs" />
     <Compile Include="LogAsistencia.cs" />
     <Compile Include="LogBancoDePreguntas.cs" />
     <Compile Include="LogSesionDeClases.cs" />
