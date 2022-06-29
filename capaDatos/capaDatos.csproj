@@ -45,6 +45,7 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="DatArea.cs" />
     <Compile Include="DatAsistencia.cs" />
+    <Compile Include="data_Silabo.cs" />
     <Compile Include="DatSesionDeClases.cs" />
     <Compile Include="DatTarjetaDeIngreso.cs" />
     <Compile Include="datBancoDePreguntas.cs" />

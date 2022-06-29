@@ -18,12 +18,21 @@ namespace ACADEMIA_SER
             InitializeComponent();
             listarSesion();
             llenarDatosComboArea();
+            llenarDatosComboSilabo();
         }
         private void llenarDatosComboArea()
         {
             cboAreaId.DataSource = LogArea.Instancia.ListarArea();
             cboAreaId.DisplayMember = "nombre";
             cboAreaId.ValueMember = "AreaId";
+
+        }
+
+        private void llenarDatosComboSilabo()
+        {
+            CboSilabo.DataSource = log_Silabo.Instancia.ListarSilabo();
+            CboSilabo.DisplayMember = "nombre_tema";
+            CboSilabo.ValueMember = "silaboID";
 
         }
         public void listarSesion()
@@ -34,7 +43,6 @@ namespace ACADEMIA_SER
         {
             txtSesionId.Text = "";
            
-            txtSilabo_id.Text = "";
 
         }
         private void FrmSesionDeClases_Load(object sender, EventArgs e)
@@ -48,10 +56,10 @@ namespace ACADEMIA_SER
             {
                 EntSesionDeClase ses = new EntSesionDeClase();
                 ses.fecha = Convert.ToDateTime(dateTimePicker1.Value);
-                ses.sesionDeclase_id = int.Parse(txtSesionId.Text.Trim());
+                ses.sesionDeclase_id = Convert.ToInt32(txtSesionId.Text.Trim());
                 ses.reprogramacion = Convert.ToDateTime(dateTimePicker2.Value);
-                ses.area_id = Convert.ToInt32(cboAreaId.Text);
-                ses.silabo_id = int.Parse(txtSilabo_id.Text.Trim());
+                ses.area_id = Convert.ToInt32(cboAreaId.SelectedValue);
+                ses.silabo_id = Convert.ToInt32(CboSilabo.SelectedValue);
                 LogSesionDeClases.Instancia.InsertarSesion(ses);
             }
             catch (Exception ex)
@@ -67,10 +75,10 @@ namespace ACADEMIA_SER
             try
             {
                 EntSesionDeClase ses = new EntSesionDeClase();
-                ses.sesionDeclase_id = int.Parse(txtSesionId.Text.Trim());
+                ses.sesionDeclase_id = Convert.ToInt32(txtSesionId.Text.Trim());
                 ses.reprogramacion = Convert.ToDateTime(dateTimePicker2.Value);
                 LogSesionDeClases.Instancia.ActualizarSesion(ses);
-                MessageBox.Show(" se hizo la reprogramacion a" + dateTimePicker2);
+                MessageBox.Show(" se hizo la reprogramacion");
             }
             catch (Exception ex)
             {
@@ -89,5 +97,7 @@ namespace ACADEMIA_SER
         {
             Dispose();
         }
+
+       
     }
 }

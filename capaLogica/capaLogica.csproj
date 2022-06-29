@@ -47,6 +47,7 @@
     <Compile Include="LogBancoDePreguntas.cs" />
     <Compile Include="LogSesionDeClases.cs" />
     <Compile Include="LogTarjetaDeIngreso.cs" />
+    <Compile Include="log_Silabo.cs" />
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>

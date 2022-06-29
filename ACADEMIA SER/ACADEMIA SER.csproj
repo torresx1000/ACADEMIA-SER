@@ -64,6 +64,12 @@
     <Compile Include="FrmSesionDeClases.Designer.cs">
       <DependentUpon>FrmSesionDeClases.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSilabo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSilabo.Designer.cs">
+      <DependentUpon>FrmSilabo.cs</DependentUpon>
+    </Compile>
     <Compile Include="principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSesionDeClases.resx">
       <DependentUpon>FrmSesionDeClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSilabo.resx">
+      <DependentUpon>FrmSilabo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="principal.resx">
       <DependentUpon>principal.cs</DependentUpon>

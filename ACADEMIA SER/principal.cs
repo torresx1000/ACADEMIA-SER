@@ -34,5 +34,11 @@ namespace ACADEMIA_SER
             FrmSesionDeClases f = new FrmSesionDeClases();
             f.Show();
         }
+
+        private void btnSilabo_Click(object sender, EventArgs e)
+        {
+            FrmSilabo f = new FrmSilabo();
+            f.Show();
+        }
     }
 }
