@@ -49,42 +49,50 @@ namespace ACADEMIA_SER
             // 
             // btnActualizar
             // 
+            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.Location = new System.Drawing.Point(773, 118);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(154, 39);
             this.btnActualizar.TabIndex = 39;
             this.btnActualizar.Text = "Reprogramacion";
-            this.btnActualizar.UseVisualStyleBackColor = true;
+            this.btnActualizar.UseVisualStyleBackColor = false;
             this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(773, 169);
+            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(773, 185);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(154, 39);
             this.btnLimpiar.TabIndex = 38;
             this.btnLimpiar.Text = "limpiar";
-            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(773, 225);
+            this.btnSalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(773, 259);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(154, 39);
             this.btnSalir.TabIndex = 37;
             this.btnSalir.Text = "salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(773, 68);
+            this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregar.Location = new System.Drawing.Point(773, 54);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(154, 39);
             this.btnAgregar.TabIndex = 36;
             this.btnAgregar.Text = "agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // DgwSesion
@@ -151,9 +159,9 @@ namespace ACADEMIA_SER
             // 
             // txtSesionId
             // 
-            this.txtSesionId.Location = new System.Drawing.Point(365, 24);
+            this.txtSesionId.Location = new System.Drawing.Point(283, 24);
             this.txtSesionId.Name = "txtSesionId";
-            this.txtSesionId.Size = new System.Drawing.Size(123, 22);
+            this.txtSesionId.Size = new System.Drawing.Size(265, 22);
             this.txtSesionId.TabIndex = 27;
             // 
             // label4
@@ -178,23 +186,24 @@ namespace ACADEMIA_SER
             // cboAreaId
             // 
             this.cboAreaId.FormattingEnabled = true;
-            this.cboAreaId.Location = new System.Drawing.Point(377, 210);
+            this.cboAreaId.Location = new System.Drawing.Point(283, 210);
             this.cboAreaId.Name = "cboAreaId";
-            this.cboAreaId.Size = new System.Drawing.Size(171, 24);
+            this.cboAreaId.Size = new System.Drawing.Size(265, 24);
             this.cboAreaId.TabIndex = 40;
             // 
             // CboSilabo
             // 
             this.CboSilabo.FormattingEnabled = true;
-            this.CboSilabo.Location = new System.Drawing.Point(377, 283);
+            this.CboSilabo.Location = new System.Drawing.Point(283, 274);
             this.CboSilabo.Name = "CboSilabo";
-            this.CboSilabo.Size = new System.Drawing.Size(171, 24);
+            this.CboSilabo.Size = new System.Drawing.Size(265, 24);
             this.CboSilabo.TabIndex = 41;
             // 
             // FrmSesionDeClases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::ACADEMIA_SER.Properties.Resources.featured_planificacion_de_una_clase_sincronica;
             this.ClientSize = new System.Drawing.Size(1026, 667);
             this.Controls.Add(this.CboSilabo);
             this.Controls.Add(this.cboAreaId);

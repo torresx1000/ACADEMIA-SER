@@ -53,14 +53,14 @@
             this.txtDesJustificacion.Location = new System.Drawing.Point(330, 237);
             this.txtDesJustificacion.Multiline = true;
             this.txtDesJustificacion.Name = "txtDesJustificacion";
-            this.txtDesJustificacion.Size = new System.Drawing.Size(202, 39);
+            this.txtDesJustificacion.Size = new System.Drawing.Size(280, 39);
             this.txtDesJustificacion.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(16, 189);
+            this.label3.Location = new System.Drawing.Point(16, 194);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(157, 29);
             this.label3.TabIndex = 3;
@@ -70,7 +70,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 237);
+            this.label4.Location = new System.Drawing.Point(6, 247);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(251, 29);
             this.label4.TabIndex = 4;
@@ -78,7 +78,7 @@
             // 
             // txtAsistencia
             // 
-            this.txtAsistencia.Location = new System.Drawing.Point(252, 30);
+            this.txtAsistencia.Location = new System.Drawing.Point(330, 31);
             this.txtAsistencia.Multiline = true;
             this.txtAsistencia.Name = "txtAsistencia";
             this.txtAsistencia.Size = new System.Drawing.Size(280, 39);
@@ -108,7 +108,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 147);
+            this.label2.Location = new System.Drawing.Point(6, 142);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(220, 29);
             this.label2.TabIndex = 2;
@@ -116,6 +116,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox1.Controls.Add(this.cboTarjetaDeIngreso);
             this.groupBox1.Controls.Add(this.cboJustificacion);
@@ -128,9 +129,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(101, 29);
+            this.groupBox1.Location = new System.Drawing.Point(33, 29);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(630, 292);
+            this.groupBox1.Size = new System.Drawing.Size(737, 292);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "ASISTENCIA ALUMNO";
@@ -138,9 +139,9 @@
             // cboTarjetaDeIngreso
             // 
             this.cboTarjetaDeIngreso.FormattingEnabled = true;
-            this.cboTarjetaDeIngreso.Location = new System.Drawing.Point(382, 90);
+            this.cboTarjetaDeIngreso.Location = new System.Drawing.Point(330, 90);
             this.cboTarjetaDeIngreso.Name = "cboTarjetaDeIngreso";
-            this.cboTarjetaDeIngreso.Size = new System.Drawing.Size(150, 33);
+            this.cboTarjetaDeIngreso.Size = new System.Drawing.Size(280, 33);
             this.cboTarjetaDeIngreso.TabIndex = 12;
             this.cboTarjetaDeIngreso.Text = "<seleciona>";
             this.cboTarjetaDeIngreso.SelectedIndexChanged += new System.EventHandler(this.cboTarjetaDeIngreso_SelectedIndexChanged);
@@ -151,9 +152,9 @@
             this.cboJustificacion.Items.AddRange(new object[] {
             "0",
             "1"});
-            this.cboJustificacion.Location = new System.Drawing.Point(411, 190);
+            this.cboJustificacion.Location = new System.Drawing.Point(330, 190);
             this.cboJustificacion.Name = "cboJustificacion";
-            this.cboJustificacion.Size = new System.Drawing.Size(121, 33);
+            this.cboJustificacion.Size = new System.Drawing.Size(280, 33);
             this.cboJustificacion.TabIndex = 11;
             this.cboJustificacion.Text = "<seleciona>";
             // 
@@ -164,9 +165,9 @@
             "T",
             "A",
             "F"});
-            this.cboEstadoAsistencia.Location = new System.Drawing.Point(382, 150);
+            this.cboEstadoAsistencia.Location = new System.Drawing.Point(330, 143);
             this.cboEstadoAsistencia.Name = "cboEstadoAsistencia";
-            this.cboEstadoAsistencia.Size = new System.Drawing.Size(150, 33);
+            this.cboEstadoAsistencia.Size = new System.Drawing.Size(280, 33);
             this.cboEstadoAsistencia.TabIndex = 10;
             this.cboEstadoAsistencia.Text = "<seleciona>";
             // 
