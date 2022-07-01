@@ -26,7 +26,7 @@ namespace ACADEMIA_SER
         private void llenarDatosComboIdAlumno()
         {
             cboTarjetaDeIngreso.DataSource = LogTarjetaDeIngreso.Instancia.ListarAlumnos();
-            cboTarjetaDeIngreso.DisplayMember = "nombres";
+            cboTarjetaDeIngreso.DisplayMember = "nombres";//nombres
             cboTarjetaDeIngreso.ValueMember = "TarjetaDeIngresoID";
 
         }
