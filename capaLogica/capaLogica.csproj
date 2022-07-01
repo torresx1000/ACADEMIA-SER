@@ -45,6 +45,7 @@
     <Compile Include="LogArea.cs" />
     <Compile Include="LogAsistencia.cs" />
     <Compile Include="LogBancoDePreguntas.cs" />
+    <Compile Include="LogHojaDeRespuesta.cs" />
     <Compile Include="LogSesionDeClases.cs" />
     <Compile Include="LogTarjetaDeIngreso.cs" />
     <Compile Include="log_Silabo.cs" />

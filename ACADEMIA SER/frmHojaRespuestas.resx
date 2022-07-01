@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="107258" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\107258.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bancodepreguntas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bancodepreguntas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="tarea-de-sílabo-hecho-concepto-gente-pequeña-con-lupa-megáfona-y-lápiz-cerca-del-portapapeles-gigante-lista-verificación-194012702" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tarea-de-sílabo-hecho-concepto-gente-pequeña-con-lupa-megáfona-y-lápiz-cerca-del-portapapeles-gigante-lista-verificación-194012702.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="download-removebg-preview (8)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download-removebg-preview (8).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Academia ser (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Academia ser (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="featured-planificacion-de-una-clase-sincronica" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\featured-planificacion-de-una-clase-sincronica.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="100487" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\100487.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1072581" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1072581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="35702" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\35702.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

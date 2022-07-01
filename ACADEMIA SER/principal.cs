@@ -40,5 +40,11 @@ namespace ACADEMIA_SER
             FrmSilabo f = new FrmSilabo();
             f.Show();
         }
+
+        private void btnHojaRespuesta_Click(object sender, EventArgs e)
+        {
+            frmHojaRespuestas acercadeb = new frmHojaRespuestas();
+            acercadeb.Show();
+        }
     }
 }

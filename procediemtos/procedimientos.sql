@@ -1,5 +1,22 @@
+create database academia_ser ;
 use academia_ser 
+---------------------------------
+--tablas 
+--Hoja Respuesta
 
+CREATE TABLE [dbo].[HojaDeRespuesta](
+	[HojaDeRespuestaID] [int] NOT NULL,
+	[numero_pregunta] [int] NOT NULL,
+	[TarjetaDeIngresoID] [int] NOT NULL,
+	[alternativa_pregunta] [char](1) NOT NULL,
+ CONSTRAINT [PK_HojaDeRespuesta] PRIMARY KEY CLUSTERED 
+(
+	[HojaDeRespuestaID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+-------------------------------------------------------------
 CREATE PROCEDURE [dbo].[spListaAsistencia] 
 AS
 	SELECT AsistenciaID,TarjetaDeIngresoID,estado_asistencia, justificacion, des_justificacion
@@ -90,7 +107,7 @@ AS
 	SELECT TarjetaDeIngresoID,nombres,apellidos, fecha_nacimiento, fecha_matricula
 	from TarjetaDeIngreso
 ------------------------------------------------------------------
-listar Area
+--listar Area
 CREATE  PROCEDURE [dbo].[ListaArea] 
 AS
 	SELECT *
@@ -132,6 +149,54 @@ begin
 	autor = @autor
 	where silaboID = @silaboID
 end
+---------------------------------------------
+--Procesos Hoja de Respuesta
 
 
+CREATE PROCEDURE [dbo].[ListaHoja_Respueta] 
+AS
 
+	SELECT HojaDeRespuestaID,numero_pregunta,TarjetaDeIngresoID,alternativa_pregunta
+	from HojaDeRespuesta
+
+
+----------------------------------------------------------------------------------------------------
+--INSERTAR
+
+CREATE PROCEDURE [dbo].[InsertarHoja_Respuesta] 
+	(
+	@HojaDeRespuestaID int,
+	@numero_pregunta int,
+	@TarjetaDeIngresoID int,
+	@alternativa_pregunta char (1) 	
+
+		 	
+)
+as
+begin 
+
+	insert into HojaDeRespuesta(HojaDeRespuestaID,numero_pregunta,TarjetaDeIngresoID,alternativa_pregunta) values
+	(@HojaDeRespuestaID,@numero_pregunta,@TarjetaDeIngresoID ,@alternativa_pregunta 
+)
+end
+
+
+--Actualizar
+
+create  PROCEDURE [dbo].[ActualizarHoja_Respuesta] 
+	(
+	@HojaDeRespuestaID int,
+	@numero_pregunta int,
+	@TarjetaDeIngresoID int,
+	@alternativa_pregunta char (1) 	
+	)
+as
+begin 
+	update  HojaDeRespuesta set 
+
+	numero_pregunta =@numero_pregunta, 
+	TarjetaDeIngresoID=@TarjetaDeIngresoID, 
+	alternativa_pregunta =@alternativa_pregunta 
+	
+	where HojaDeRespuestaID=@HojaDeRespuestaID
+end

@@ -58,6 +58,12 @@
     <Compile Include="FormularioBancoDePreguntas.Designer.cs">
       <DependentUpon>FormularioBancoDePreguntas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmHojaRespuestas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHojaRespuestas.Designer.cs">
+      <DependentUpon>frmHojaRespuestas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmSesionDeClases.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioBancoDePreguntas.resx">
       <DependentUpon>FormularioBancoDePreguntas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHojaRespuestas.resx">
+      <DependentUpon>frmHojaRespuestas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmSesionDeClases.resx">
       <DependentUpon>FrmSesionDeClases.cs</DependentUpon>
@@ -137,6 +146,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bancodepreguntas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100487.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\107258.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1072581.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35702.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

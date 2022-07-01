@@ -63,6 +63,46 @@ namespace ACADEMIA_SER.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _100487 {
+            get {
+                object obj = ResourceManager.GetObject("100487", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _107258 {
+            get {
+                object obj = ResourceManager.GetObject("107258", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1072581 {
+            get {
+                object obj = ResourceManager.GetObject("1072581", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _35702 {
+            get {
+                object obj = ResourceManager.GetObject("35702", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Academia_ser__2_ {
             get {
                 object obj = ResourceManager.GetObject("Academia ser (2)", resourceCulture);
@@ -76,6 +116,16 @@ namespace ACADEMIA_SER.Properties {
         internal static System.Drawing.Bitmap bancodepreguntas {
             get {
                 object obj = ResourceManager.GetObject("bancodepreguntas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview__8_ {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview (8)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
