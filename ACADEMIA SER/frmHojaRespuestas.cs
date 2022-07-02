@@ -19,6 +19,14 @@ namespace ACADEMIA_SER
         {
             InitializeComponent();
             listaHojaRespuesta();
+            llenarDatosTarjetaDeIngresoId();
+        }
+
+        private void llenarDatosTarjetaDeIngresoId()
+        {
+            cboTarjetaDeIngreso.DataSource = LogTarjetaDeIngreso.Instancia.ListarAlumnos();
+            cboTarjetaDeIngreso.DisplayMember = "nombres";
+            cboTarjetaDeIngreso.ValueMember = "TarjetaDeIngresoID";
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)
@@ -31,7 +39,7 @@ namespace ACADEMIA_SER
                 entHojaRespuesta c = new entHojaRespuesta();
                 c.HojaDeRespuestaID = int.Parse(txtIdHojaRespuesta.Text.Trim());
                 c.numero_pregunta = int.Parse(txtNumPreguntaHR.Text.Trim());
-                c.TarjetaDeIngresoID = int.Parse(txtTarjetaId.Text.Trim());
+                c.TarjetaDeIngresoID = Convert.ToInt32(cboTarjetaDeIngreso.SelectedValue);
                 c.alternativa_pregunta = char.Parse(CbAlterHojaRespuesta.Text.Trim());
 
                 LogHojaDeRespuesta.Instancia.InsertarHojaRespuesta(c);
@@ -52,7 +60,6 @@ namespace ACADEMIA_SER
         {
             txtIdHojaRespuesta.Clear();
             txtNumPreguntaHR.Clear();
-            txtTarjetaId.Clear();
             CbAlterHojaRespuesta.Text = " ";
 
         }
@@ -62,12 +69,10 @@ namespace ACADEMIA_SER
             try
             {
 
-
-
                 entHojaRespuesta c = new entHojaRespuesta();
                 c.HojaDeRespuestaID = int.Parse(txtIdHojaRespuesta.Text.Trim());
                 c.numero_pregunta = int.Parse(txtNumPreguntaHR.Text.Trim());
-                c.TarjetaDeIngresoID = int.Parse(txtTarjetaId.Text.Trim());
+                c.TarjetaDeIngresoID = Convert.ToInt32(cboTarjetaDeIngreso.SelectedValue);
                 c.alternativa_pregunta = char.Parse(CbAlterHojaRespuesta.Text.Trim());
 
                 LogHojaDeRespuesta.Instancia.ActualizarHojaRespuesta(c);
@@ -89,6 +94,11 @@ namespace ACADEMIA_SER
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Dispose();
+        }
+
+        private void cboTarjetaDeIngreso_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

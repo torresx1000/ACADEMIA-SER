@@ -67,36 +67,40 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(386, 84);
+            this.label6.Location = new System.Drawing.Point(515, 103);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 13);
+            this.label6.Size = new System.Drawing.Size(41, 17);
             this.label6.TabIndex = 26;
             this.label6.Text = "Salir";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(256, 84);
+            this.label5.Location = new System.Drawing.Point(341, 103);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 13);
+            this.label5.Size = new System.Drawing.Size(72, 17);
             this.label5.TabIndex = 25;
             this.label5.Text = "Cancelar";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(128, 84);
+            this.label4.Location = new System.Drawing.Point(171, 103);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(63, 13);
+            this.label4.Size = new System.Drawing.Size(80, 17);
             this.label4.TabIndex = 24;
             this.label4.Text = "Actualizar";
             // 
             // Agregar
             // 
             this.Agregar.AutoSize = true;
-            this.Agregar.Location = new System.Drawing.Point(6, 83);
+            this.Agregar.Location = new System.Drawing.Point(8, 102);
+            this.Agregar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Agregar.Name = "Agregar";
-            this.Agregar.Size = new System.Drawing.Size(51, 13);
+            this.Agregar.Size = new System.Drawing.Size(66, 17);
             this.Agregar.TabIndex = 23;
             this.Agregar.Text = "Agregar";
             // 
@@ -112,9 +116,11 @@
             this.groupBox2.Controls.Add(this.pbActualizar);
             this.groupBox2.Controls.Add(this.pbAgregar);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(379, 17);
+            this.groupBox2.Location = new System.Drawing.Point(505, 21);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(464, 105);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(619, 129);
             this.groupBox2.TabIndex = 25;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Opciones";
@@ -122,9 +128,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ACADEMIA_SER.Properties.Resources._107258;
-            this.pictureBox1.Location = new System.Drawing.Point(262, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(349, 37);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(64, 62);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 22;
             this.pictureBox1.TabStop = false;
@@ -133,9 +140,10 @@
             // pbSalir
             // 
             this.pbSalir.Image = global::ACADEMIA_SER.Properties.Resources._35702;
-            this.pbSalir.Location = new System.Drawing.Point(380, 30);
+            this.pbSalir.Location = new System.Drawing.Point(507, 37);
+            this.pbSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbSalir.Name = "pbSalir";
-            this.pbSalir.Size = new System.Drawing.Size(50, 50);
+            this.pbSalir.Size = new System.Drawing.Size(67, 62);
             this.pbSalir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbSalir.TabIndex = 22;
             this.pbSalir.TabStop = false;
@@ -144,9 +152,10 @@
             // pbActualizar
             // 
             this.pbActualizar.Image = global::ACADEMIA_SER.Properties.Resources._100487;
-            this.pbActualizar.Location = new System.Drawing.Point(132, 30);
+            this.pbActualizar.Location = new System.Drawing.Point(176, 37);
+            this.pbActualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbActualizar.Name = "pbActualizar";
-            this.pbActualizar.Size = new System.Drawing.Size(56, 50);
+            this.pbActualizar.Size = new System.Drawing.Size(75, 62);
             this.pbActualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbActualizar.TabIndex = 22;
             this.pbActualizar.TabStop = false;
@@ -155,9 +164,10 @@
             // pbAgregar
             // 
             this.pbAgregar.Image = global::ACADEMIA_SER.Properties.Resources.download_removebg_preview__8_;
-            this.pbAgregar.Location = new System.Drawing.Point(6, 30);
+            this.pbAgregar.Location = new System.Drawing.Point(8, 37);
+            this.pbAgregar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbAgregar.Name = "pbAgregar";
-            this.pbAgregar.Size = new System.Drawing.Size(52, 50);
+            this.pbAgregar.Size = new System.Drawing.Size(69, 62);
             this.pbAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbAgregar.TabIndex = 20;
             this.pbAgregar.TabStop = false;
@@ -166,9 +176,10 @@
             // cbC
             // 
             this.cbC.AutoSize = true;
-            this.cbC.Location = new System.Drawing.Point(107, 23);
+            this.cbC.Location = new System.Drawing.Point(143, 28);
+            this.cbC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbC.Name = "cbC";
-            this.cbC.Size = new System.Drawing.Size(34, 17);
+            this.cbC.Size = new System.Drawing.Size(40, 21);
             this.cbC.TabIndex = 15;
             this.cbC.Text = "C";
             this.cbC.UseVisualStyleBackColor = true;
@@ -176,9 +187,10 @@
             // cbD
             // 
             this.cbD.AutoSize = true;
-            this.cbD.Location = new System.Drawing.Point(151, 23);
+            this.cbD.Location = new System.Drawing.Point(201, 28);
+            this.cbD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbD.Name = "cbD";
-            this.cbD.Size = new System.Drawing.Size(35, 17);
+            this.cbD.Size = new System.Drawing.Size(41, 21);
             this.cbD.TabIndex = 16;
             this.cbD.Text = "D";
             this.cbD.UseVisualStyleBackColor = true;
@@ -186,9 +198,10 @@
             // cbA
             // 
             this.cbA.AutoSize = true;
-            this.cbA.Location = new System.Drawing.Point(6, 23);
+            this.cbA.Location = new System.Drawing.Point(8, 28);
+            this.cbA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbA.Name = "cbA";
-            this.cbA.Size = new System.Drawing.Size(34, 17);
+            this.cbA.Size = new System.Drawing.Size(40, 21);
             this.cbA.TabIndex = 13;
             this.cbA.Text = "A";
             this.cbA.UseVisualStyleBackColor = true;
@@ -196,9 +209,10 @@
             // CbB
             // 
             this.CbB.AutoSize = true;
-            this.CbB.Location = new System.Drawing.Point(55, 23);
+            this.CbB.Location = new System.Drawing.Point(73, 28);
+            this.CbB.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CbB.Name = "CbB";
-            this.CbB.Size = new System.Drawing.Size(34, 17);
+            this.CbB.Size = new System.Drawing.Size(40, 21);
             this.CbB.TabIndex = 14;
             this.CbB.Text = "B";
             this.CbB.UseVisualStyleBackColor = true;
@@ -216,10 +230,11 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(23, 17);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(31, 21);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(323, 284);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(445, 360);
             this.groupBox1.TabIndex = 24;
             this.groupBox1.TabStop = false;
             // 
@@ -229,9 +244,11 @@
             this.groupBox3.Controls.Add(this.cbD);
             this.groupBox3.Controls.Add(this.cbA);
             this.groupBox3.Controls.Add(this.CbB);
-            this.groupBox3.Location = new System.Drawing.Point(25, 123);
+            this.groupBox3.Location = new System.Drawing.Point(33, 151);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(209, 51);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(279, 63);
             this.groupBox3.TabIndex = 17;
             this.groupBox3.TabStop = false;
             // 
@@ -239,37 +256,41 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 22);
+            this.label1.Location = new System.Drawing.Point(8, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 15);
+            this.label1.Size = new System.Drawing.Size(27, 20);
             this.label1.TabIndex = 5;
             this.label1.Text = "ID";
             // 
             // txtidBanco
             // 
             this.txtidBanco.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtidBanco.Location = new System.Drawing.Point(34, 19);
+            this.txtidBanco.Location = new System.Drawing.Point(45, 23);
+            this.txtidBanco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtidBanco.Multiline = true;
             this.txtidBanco.Name = "txtidBanco";
-            this.txtidBanco.Size = new System.Drawing.Size(219, 28);
+            this.txtidBanco.Size = new System.Drawing.Size(291, 34);
             this.txtidBanco.TabIndex = 0;
             // 
             // txtDesBan
             // 
             this.txtDesBan.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesBan.Location = new System.Drawing.Point(25, 201);
+            this.txtDesBan.Location = new System.Drawing.Point(33, 247);
+            this.txtDesBan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDesBan.Multiline = true;
             this.txtDesBan.Name = "txtDesBan";
-            this.txtDesBan.Size = new System.Drawing.Size(253, 68);
+            this.txtDesBan.Size = new System.Drawing.Size(336, 83);
             this.txtDesBan.TabIndex = 12;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 76);
+            this.label2.Location = new System.Drawing.Point(8, 94);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(165, 15);
+            this.label2.Size = new System.Drawing.Size(213, 20);
             this.label2.TabIndex = 6;
             this.label2.Text = "NUMERO DE PREGUNTA";
             // 
@@ -277,61 +298,67 @@
             // 
             this.lavel200.AutoSize = true;
             this.lavel200.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lavel200.Location = new System.Drawing.Point(95, 181);
+            this.lavel200.Location = new System.Drawing.Point(127, 223);
+            this.lavel200.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lavel200.Name = "lavel200";
-            this.lavel200.Size = new System.Drawing.Size(101, 15);
+            this.lavel200.Size = new System.Drawing.Size(129, 20);
             this.lavel200.TabIndex = 8;
             this.lavel200.Text = "DESCRIPCION";
             // 
             // txtNumPre
             // 
             this.txtNumPre.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumPre.Location = new System.Drawing.Point(176, 65);
+            this.txtNumPre.Location = new System.Drawing.Point(235, 80);
+            this.txtNumPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNumPre.Multiline = true;
             this.txtNumPre.Name = "txtNumPre";
-            this.txtNumPre.Size = new System.Drawing.Size(49, 28);
+            this.txtNumPre.Size = new System.Drawing.Size(64, 34);
             this.txtNumPre.TabIndex = 10;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 105);
+            this.label3.Location = new System.Drawing.Point(8, 129);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(159, 15);
+            this.label3.Size = new System.Drawing.Size(205, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "OPCION DE PREGUNTA";
             // 
             // dgvBancoDePreguntas
             // 
             this.dgvBancoDePreguntas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBancoDePreguntas.Location = new System.Drawing.Point(379, 139);
+            this.dgvBancoDePreguntas.Location = new System.Drawing.Point(505, 171);
+            this.dgvBancoDePreguntas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvBancoDePreguntas.Name = "dgvBancoDePreguntas";
             this.dgvBancoDePreguntas.RowHeadersWidth = 51;
-            this.dgvBancoDePreguntas.Size = new System.Drawing.Size(464, 430);
+            this.dgvBancoDePreguntas.Size = new System.Drawing.Size(619, 529);
             this.dgvBancoDePreguntas.TabIndex = 23;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(23, 328);
+            this.pictureBox2.Image = global::ACADEMIA_SER.Properties.Resources.featured_planificacion_de_una_clase_sincronica;
+            this.pictureBox2.Location = new System.Drawing.Point(31, 419);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(323, 258);
+            this.pictureBox2.Size = new System.Drawing.Size(431, 318);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 26;
             this.pictureBox2.TabStop = false;
             // 
             // FormularioBancoDePreguntas
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ACADEMIA_SER.Properties.Resources.bancodepreguntas;
-            this.ClientSize = new System.Drawing.Size(908, 609);
+            this.ClientSize = new System.Drawing.Size(1211, 750);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvBancoDePreguntas);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormularioBancoDePreguntas";
             this.Text = "FormularioBancoDePreguntas";
             this.Load += new System.EventHandler(this.FormularioBancoDePreguntas_Load);
