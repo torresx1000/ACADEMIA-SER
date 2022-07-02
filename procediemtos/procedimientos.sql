@@ -187,3 +187,48 @@ begin
 	
 	where HojaDeRespuestaID=@HojaDeRespuestaID
 end
+-- listar 
+
+create PROCEDURE [dbo].[Lista_cuadernillo_hoja] 
+AS
+	SELECT*
+	from [CUADERNILLO DE PREGUNTASHOJA DE RESPUESTA];
+
+--listar
+create PROCEDURE [dbo].[Lista_cuadernillo] 
+AS
+
+	SELECT*
+	from CuadernilloDePreguntas;
+	
+-- inserta
+create PROCEDURE [dbo].[Insertar_cuadernillo] 
+	(
+	@CuadernilloDePreguntasID int,
+	@numero_pregunta int,
+	@descripcion_pregunta varchar (50),
+	@numeroTotal_preguntas int,
+	@alternativa_pregunta char (1),
+	@BancoDePreguntasID int,
+	@SesionDeClaseID int 	 	
+)
+as
+begin 
+
+	insert into CuadernilloDePreguntas(CuadernilloDePreguntasID,numero_pregunta,descripcion_pregunta,numeroTotal_preguntas,alternativa_pregunta,
+	BancoDePreguntasID,SesionDeClaseID) values
+	(@CuadernilloDePreguntasID,@numero_pregunta,@descripcion_pregunta ,@numeroTotal_preguntas,@alternativa_pregunta,@BancoDePreguntasID,@SesionDeClaseID)
+end
+-- inserta 
+create PROCEDURE [dbo].[Insertar_cuadernillo_hoja] 
+	(
+	@CuadernilloDePreguntasID int,
+	@HojaDeRespuestaID int,
+	@fecha_examen date 	 	
+)
+as
+begin 
+
+	insert into [CUADERNILLO DE PREGUNTASHOJA DE RESPUESTA](CuadernilloDePreguntasID,HojaDeRespuestaID,fecha_examen) values
+	(@CuadernilloDePreguntasID,@HojaDeRespuestaID,@fecha_examen)
+end
