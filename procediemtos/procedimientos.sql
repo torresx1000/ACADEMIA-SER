@@ -1,19 +1,6 @@
 create database academia_ser ;
 use academia_ser 
 ---------------------------------
---tablas 
---Hoja Respuesta
-
-CREATE TABLE [dbo].[HojaDeRespuesta](
-	[HojaDeRespuestaID] [int] NOT NULL,
-	[numero_pregunta] [int] NOT NULL,
-	[TarjetaDeIngresoID] [int] NOT NULL,
-	[alternativa_pregunta] [char](1) NOT NULL,
- CONSTRAINT [PK_HojaDeRespuesta] PRIMARY KEY CLUSTERED 
-(
-	[HojaDeRespuestaID] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
-) ON [PRIMARY]
 
 
 -------------------------------------------------------------
